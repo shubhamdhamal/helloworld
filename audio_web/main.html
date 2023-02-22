@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>loading page</title>
+  <style>
+    /* Hide the audio controls */
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <audio id="background-audio" autoplay loop>
+    <source src="nau.mp3" type="audio/mp3">
+  </audio>
+<H2>click on <b>View</b> Button to watch any movies for free!
+<button type="button">View</button>
+</body>
+<script>
+  window.onclick = function () {
+    var audio = document.getElementById("background-audio");
+    audio.play();
+  }
+</script>
+
+</html>
